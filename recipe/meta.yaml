@@ -1,6 +1,6 @@
 {% set name = "xtl" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "2cfe9acbcc4e484f3aa33a98892a09ffe79bb9c0dfd3ffc57b3561f44c591e7c" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "025c9cea53b715cbf237a96f62e5809c36e6a4f5ac04cd6b95ffb07b9bc47fee" %}
 
 package:
   name: {{ name|lower }}
@@ -42,3 +42,4 @@ extra:
   recipe-maintainers:
     - SylvainCorlay
     - JohanMabille
+    - wolfv
