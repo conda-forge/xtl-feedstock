@@ -1,6 +1,6 @@
 {% set name = "xtl" %}
-{% set version = "0.4.3" %}
-{% set sha256 = "4ead9e028f4c041416415185ce1c9b4f3a9da8de4664ad8646af7b09f92d8d7c" %}
+{% set version = "0.4.4" %}
+{% set sha256 = "2e24ae1e990b36c21134ee8b2017e4d8f1aa760ba0e62e57c9de8f6339052f7f" %}
 
 package:
   name: {{ name|lower }}
