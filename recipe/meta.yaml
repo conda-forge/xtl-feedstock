@@ -12,11 +12,12 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
+  skip: True  # [win and vc<14]
 
 requirements:
   build:
-    - toolchain
+    - {{ compiler('cxx') }}
     - cmake
 
 test:
@@ -24,9 +25,10 @@ test:
     - test -f ${PREFIX}/include/xtl/xbasic_fixed_string.hpp  # [unix]
     - test -f ${PREFIX}/lib/cmake/xtl/xtlConfig.cmake  # [unix]
     - test -f ${PREFIX}/lib/cmake/xtl/xtlConfigVersion.cmake  # [unix]
-    - if exist %LIBRARY_PREFIX%\include\xtl\xbasic_fixed_string.hpp (exit 0) else (exit 1)  # [win]
-    - if exist %LIBRARY_PREFIX%\lib\cmake\xtlConfig.cmake (exit 0) else (exit 1)  # [win]
-    - if exist %LIBRARY_PREFIX%\lib\cmake\xtlConfigVersion.cmake (exit 0) else (exit 1)  # [win]
+    # TODO: replace with ${PREFIX}\Library with %{LIBRARY_PREFIX}
+    - if exist %PREFIX%\Library\include\xtl\xbasic_fixed_string.hpp (exit 0) else (exit 1)  # [win]
+    - if exist %PREFIX%\Library\lib\cmake\xtlConfig.cmake (exit 0) else (exit 1)  # [win]
+    - if exist %PREFIX%\Library\lib\cmake\xtlConfigVersion.cmake (exit 0) else (exit 1)  # [win]
 
 about:
   home: http://quantstack.net

@@ -14,14 +14,16 @@ Basic tools (containers, algorithms) used by other packages from Quantstack
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/xtl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xtl-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/xtl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/xtl-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/xtl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/xtl-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/xtl-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/xtl-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/xtl-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/xtl-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/xtl-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/xtl-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xtl/badges/version.svg)](https://anaconda.org/conda-forge/xtl)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xtl/badges/downloads.svg)](https://anaconda.org/conda-forge/xtl)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-xtl-green.svg)](https://anaconda.org/conda-forge/xtl) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/xtl.svg)](https://anaconda.org/conda-forge/xtl) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/xtl.svg)](https://anaconda.org/conda-forge/xtl) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/xtl.svg)](https://anaconda.org/conda-forge/xtl) |
 
 Installing xtl
 ==============
