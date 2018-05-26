@@ -25,7 +25,7 @@ test:
     - test -f ${PREFIX}/include/xtl/xbasic_fixed_string.hpp  # [unix]
     - test -f ${PREFIX}/lib/cmake/xtl/xtlConfig.cmake  # [unix]
     - test -f ${PREFIX}/lib/cmake/xtl/xtlConfigVersion.cmake  # [unix]
-    # TODO: replace with ${PREFIX}\Library with %{LIBRARY_PREFIX}
+    # TODO: replace with %PREFIX%\Library with %LIBRARY_PREFIX%
     - if exist %PREFIX%\Library\include\xtl\xbasic_fixed_string.hpp (exit 0) else (exit 1)  # [win]
     - if exist %PREFIX%\Library\lib\cmake\xtlConfig.cmake (exit 0) else (exit 1)  # [win]
     - if exist %PREFIX%\Library\lib\cmake\xtlConfigVersion.cmake (exit 0) else (exit 1)  # [win]
