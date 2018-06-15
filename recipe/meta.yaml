@@ -1,6 +1,6 @@
 {% set name = "xtl" %}
-{% set version = "0.4.9" %}
-{% set sha256 = "587251bb7787b7dd05a2d432712bb2a7f05411155c61a9bc4a0f69c7b4e85dc3" %}
+{% set version = "0.4.10" %}
+{% set sha256 = "e29065ef024ff9a032d400f90a9c8f3c6b73ba6ee15a5f7afd8694e4b3fcacc4" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: True  # [win and vc<14]
 
 requirements:
@@ -25,10 +25,9 @@ test:
     - test -f ${PREFIX}/include/xtl/xbasic_fixed_string.hpp  # [unix]
     - test -f ${PREFIX}/lib/cmake/xtl/xtlConfig.cmake  # [unix]
     - test -f ${PREFIX}/lib/cmake/xtl/xtlConfigVersion.cmake  # [unix]
-    # TODO: replace with %PREFIX%\Library with %LIBRARY_PREFIX%
-    - if exist %PREFIX%\Library\include\xtl\xbasic_fixed_string.hpp (exit 0) else (exit 1)  # [win]
-    - if exist %PREFIX%\Library\lib\cmake\xtlConfig.cmake (exit 0) else (exit 1)  # [win]
-    - if exist %PREFIX%\Library\lib\cmake\xtlConfigVersion.cmake (exit 0) else (exit 1)  # [win]
+    - if exist %LIBRARY_PREFIX%\include\xtl\xbasic_fixed_string.hpp (exit 0) else (exit 1)  # [win]
+    - if exist %LIBRARY_PREFIX%\lib\cmake\xtlConfig.cmake (exit 0) else (exit 1)  # [win]
+    - if exist %LIBRARY_PREFIX%\lib\cmake\xtlConfigVersion.cmake (exit 0) else (exit 1)  # [win]
 
 about:
   home: http://quantstack.net
