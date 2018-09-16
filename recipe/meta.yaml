@@ -16,6 +16,7 @@ build:
   skip: True  # [win and vc<14]
 
 requirements:
+  host: []  # Empty host dependency section
   build:
     - {{ compiler('cxx') }}
     - cmake
