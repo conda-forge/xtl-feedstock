@@ -12,14 +12,14 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1000
   skip: True  # [win and vc<14]
 
 requirements:
-  host: []  # Empty host dependency section
   build:
     - {{ compiler('cxx') }}
     - cmake
+  host: []  # Empty host dependency section
 
 test:
   commands:
