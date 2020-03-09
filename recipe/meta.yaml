@@ -1,6 +1,6 @@
 {% set name = "xtl" %}
-{% set version = "0.6.12" %}
-{% set sha256 = "25a16958195f939e6fb7c8feccad89b3e450a18124be6aee119c69a1ee2b308c" %}
+{% set version = "0.6.13" %}
+{% set sha256 = "12bd628dee4a7a55db79bff5a47fb7d96b1a4dba780fbd5c81c3a15becfdd99c" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
-  skip: True  # [win and vc<14]
+  number: 0
+  skip: true  # [win and vc<14]
 
 requirements:
   build:
@@ -36,8 +36,8 @@ about:
   license: BSD 3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'The QuantStack tools library'
-  description: 'Basic tools (containers, algorithms) used by other packages from Quantstack'
+  summary: The QuantStack tools library
+  description: Basic tools (containers, algorithms) used by other packages from Quantstack
   doc_url: http://xtl.readthedocs.io
   dev_url: https://github.com/QuantStack/xtl
 
