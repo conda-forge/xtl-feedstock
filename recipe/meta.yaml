@@ -1,6 +1,6 @@
 {% set name = "xtl" %}
-{% set version = "0.6.13" %}
-{% set sha256 = "12bd628dee4a7a55db79bff5a47fb7d96b1a4dba780fbd5c81c3a15becfdd99c" %}
+{% set version = "0.6.14" %}
+{% set sha256 = "9bac6d7e87bc93d7ec01e45d6c64cd6e991b4741e9a41f2d4934bf6dcf50069f" %}
 
 package:
   name: {{ name|lower }}
@@ -33,7 +33,7 @@ test:
 
 about:
   home: http://quantstack.net
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: The QuantStack tools library
