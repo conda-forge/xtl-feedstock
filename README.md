@@ -5,7 +5,7 @@ Home: http://quantstack.net
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: The QuantStack tools library
 
@@ -26,7 +26,7 @@ Current build status
     <td>Drone</td>
     <td>
       <a href="https://cloud.drone.io/conda-forge/xtl-feedstock">
-        <img alt="linux" src="https://img.shields.io/drone/build/conda-forge/master.svg?label=Linux">
+        <img alt="linux" src="https://img.shields.io/drone/build/conda-forge/xtl-feedstock/master.svg?label=Linux">
       </a>
     </td>
   </tr>
@@ -71,10 +71,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_cxx_compilervs2015vc14</td>
+              <td>win</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2230&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/xtl-feedstock?branchName=master&jobName=win&configuration=win_cxx_compilervs2015vc14" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/xtl-feedstock?branchName=master&jobName=win&configuration=win_" alt="variant">
                 </a>
               </td>
             </tr>
