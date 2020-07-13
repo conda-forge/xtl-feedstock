@@ -33,7 +33,7 @@ test:
 
 about:
   home: http://quantstack.net
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: The QuantStack tools library
