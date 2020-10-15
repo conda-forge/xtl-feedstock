@@ -5,9 +5,13 @@ Home: http://quantstack.net
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xtl-feedstock/blob/master/LICENSE.txt)
 
 Summary: The QuantStack tools library
+
+Development: https://github.com/QuantStack/xtl
+
+Documentation: http://xtl.readthedocs.io
 
 Basic tools (containers, algorithms) used by other packages from Quantstack
 
