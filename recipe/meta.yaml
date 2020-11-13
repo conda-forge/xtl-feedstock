@@ -47,3 +47,4 @@ extra:
     - JohanMabille
     - wolfv
     - davidbrochart
+    - conda-forge/xtensor
