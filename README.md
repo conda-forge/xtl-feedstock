@@ -1,19 +1,19 @@
 About xtl
 =========
 
-Home: http://quantstack.net
+Home: https://github.com/xtensor-stack/xtl
 
 Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xtl-feedstock/blob/master/LICENSE.txt)
 
-Summary: The QuantStack tools library
+Summary: The xtensor-stack tools library
 
-Development: https://github.com/QuantStack/xtl
+Development: https://github.com/xtensor-stack/xtl
 
-Documentation: http://xtl.readthedocs.io
+Documentation: https://xtl.readthedocs.io
 
-Basic tools (containers, algorithms) used by other packages from Quantstack
+Basic tools (containers, algorithms) used by other packages from the xtensor and xeus stacks.
 
 Current build status
 ====================
@@ -180,9 +180,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
