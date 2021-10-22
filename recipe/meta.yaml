@@ -1,6 +1,6 @@
 {% set name = "xtl" %}
-{% set version = "0.7.2" %}
-{% set sha256 = "95c221bdc6eaba592878090916383e5b9390a076828552256693d5d97f78357c" %}
+{% set version = "0.7.3" %}
+{% set sha256 = "f4a81e3c9ca9ddb42bd4373967d4859ecfdca1aba60b9fa6ced6c84d8b9824ff" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win and vc<14]
 
 requirements:
