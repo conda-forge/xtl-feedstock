@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/xtensor-stack/xtl/archive/{{ version }}.tar.gz
-  sha256: 44fb99fbf5e56af5c43619fc8c29aa58e5fad18f3ba6e7d9c55c111b62df1fbb
+  sha256: ee38153b7dd0ec84cee3361f5488a4e7e6ddd26392612ac8821cbc76e740273a
 
 build:
   number: 0
