@@ -1,5 +1,5 @@
 {% set name = "xtl" %}
-{% set version = "0.7.7" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
